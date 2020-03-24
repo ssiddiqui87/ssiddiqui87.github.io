@@ -1,0 +1,69 @@
+﻿body {
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+.heading {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: larger;
+    color: goldenrod;
+    text-decoration:underline;
+}
+
+
+h1 {
+    color: antiquewhite;
+}
+
+h2 {
+    color: antiquewhite;
+}
+
+.menu {
+    background-color: #0F2027;
+    overflow: hidden;
+}
+
+    .menu a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 15px 15px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        .menu a.current {
+            background-color: #2C5364;
+            color: white;
+            border: thin;
+            border-color: #0F2027;
+            border-style: solid;
+        }
+
+        .menu a:hover {
+            background-color: #203A43;
+            color: white;
+        }
+
+.portfolio {
+    text-decoration: none;
+ 
+}
+
+    .portfolio a {
+        color: antiquewhite;
+        font-size: larger;
+        text-decoration: none;
+    }
+
+    .portfolio img {
+        margin: 10px 0 20px 0;
+    }
+
+.footer {
+    position: fixed;
+    bottom: 10px;
+}
